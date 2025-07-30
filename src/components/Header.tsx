@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import healthcareLogo from "@/assets/healthcare-logo.png";
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
     <header className="w-full bg-background border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3">
             <img 
               src={healthcareLogo} 
               alt="Healthcare Analysis HQ" 
@@ -17,7 +18,7 @@ const Header = () => {
                 HEALTHCARE ANALYSIS HQ (HAQ)
               </h1>
             </div>
-          </div>
+          </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
             <a 
@@ -32,9 +33,11 @@ const Header = () => {
             >
               About Us
             </a>
-            <Button variant="healthcare-outline" size="sm">
-              Login
-            </Button>
+            <Link to="/login">
+              <Button variant="healthcare-outline" size="sm">
+                Login
+              </Button>
+            </Link>
           </nav>
         </div>
       </div>

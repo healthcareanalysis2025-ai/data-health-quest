@@ -1,8 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Facebook } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+  const handleFacebookSignup = () => {
+    navigate("/signup");
+  };
+
+  const handleEmailSignup = () => {
+    navigate("/signup");
+  };
+
+  const handleLearnMore = () => {
+    // Scroll to technology section
+    const techSection = document.getElementById('technology');
+    if (techSection) {
+      techSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
@@ -39,6 +57,7 @@ const HeroSection = () => {
                 </div>
 
                 <Button 
+                  onClick={handleFacebookSignup}
                   variant="healthcare" 
                   size="lg" 
                   className="w-full justify-center"
@@ -59,6 +78,7 @@ const HeroSection = () => {
                 </div>
 
                 <Button 
+                  onClick={handleEmailSignup}
                   variant="healthcare-outline" 
                   size="lg" 
                   className="w-full"
@@ -67,7 +87,11 @@ const HeroSection = () => {
                 </Button>
 
                 <div className="text-center">
-                  <Button variant="healthcare-ghost" className="font-medium">
+                  <Button 
+                    variant="healthcare-ghost" 
+                    className="font-medium"
+                    onClick={handleLearnMore}
+                  >
                     Learn More →
                   </Button>
                 </div>
