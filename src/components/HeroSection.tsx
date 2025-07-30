@@ -19,7 +19,7 @@ const HeroSection = () => {
               <div className="space-y-4">
                 <p className="text-lg text-gray-600 leading-relaxed">
                   Being a healthcare analyst comes down to mastering{" "}
-                  <span className="font-semibold text-healthcare-primary">SQL, Python and Statistics</span>.
+                  <span className="font-semibold text-healthcare-primary">SQL and Python</span>.
                 </p>
                 <p className="text-lg text-gray-600">
                   Start your journey to mastery with us today.
@@ -67,12 +67,6 @@ const HeroSection = () => {
                 </Button>
 
                 <div className="text-center">
-                  <p className="text-sm text-gray-600">
-                    Fusce convallis sollicitudin rhoncus ut lorem.
-                  </p>
-                </div>
-
-                <div className="text-center pt-4">
                   <Button variant="healthcare-ghost" className="font-medium">
                     Learn More →
                   </Button>

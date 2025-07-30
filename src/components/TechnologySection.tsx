@@ -23,16 +23,6 @@ const TechnologySection = () => {
         "10 minutes a day"
       ],
       iconColor: "text-healthcare-primary"
-    },
-    {
-      icon: BarChart3,
-      title: "STATISTICS",
-      description: "Requirements",
-      details: [
-        "10 minutes a day",
-        "Some background in basic Statistics"
-      ],
-      iconColor: "text-healthcare-primary"
     }
   ];
 
@@ -45,7 +35,7 @@ const TechnologySection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {technologies.map((tech, index) => {
             const IconComponent = tech.icon;
             return (
