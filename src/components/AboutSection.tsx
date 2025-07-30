@@ -16,7 +16,13 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Card className="border-harvard-crimson/20">
             <CardContent className="p-6">
-              <div className="text-harvard-crimson text-4xl mb-4">🎯</div>
+              <div className="text-harvard-crimson text-4xl mb-4">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12">
+                  <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="2"/>
+                  <circle cx="12" cy="12" r="6" fill="none" stroke="currentColor" strokeWidth="2"/>
+                  <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                </svg>
+              </div>
               <h3 className="text-xl font-semibold mb-3">Our Mission</h3>
               <p className="text-muted-foreground">
                 To democratize healthcare data analysis education by providing accessible, practical learning experiences that bridge the gap between theory and real-world application.
@@ -26,7 +32,14 @@ const AboutSection = () => {
 
           <Card className="border-harvard-crimson/20">
             <CardContent className="p-6">
-              <div className="text-harvard-crimson text-4xl mb-4">📚</div>
+              <div className="text-harvard-crimson text-4xl mb-4">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12">
+                  <rect x="2" y="4" width="20" height="12" rx="2" fill="none" stroke="currentColor" strokeWidth="2"/>
+                  <rect x="4" y="6" width="16" height="8" fill="currentColor" opacity="0.2"/>
+                  <path d="M8 20h8" stroke="currentColor" strokeWidth="2"/>
+                  <path d="M12 16v4" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </div>
               <h3 className="text-xl font-semibold mb-3">Daily Learning</h3>
               <p className="text-muted-foreground">
                 Master SQL and Python through carefully curated daily challenges designed specifically for healthcare data scenarios and real-world problem solving.
@@ -36,7 +49,13 @@ const AboutSection = () => {
 
           <Card className="border-harvard-crimson/20">
             <CardContent className="p-6">
-              <div className="text-harvard-crimson text-4xl mb-4">🏆</div>
+              <div className="text-harvard-crimson text-4xl mb-4">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="w-12 h-12">
+                  <path d="M6 9h12l-2 9H8l-2-9z" fill="none" stroke="currentColor" strokeWidth="2"/>
+                  <circle cx="12" cy="6" r="2" fill="currentColor"/>
+                  <path d="M10 6h4" stroke="currentColor" strokeWidth="2"/>
+                </svg>
+              </div>
               <h3 className="text-xl font-semibold mb-3">Progress Tracking</h3>
               <p className="text-muted-foreground">
                 Track your learning journey with detailed analytics, achievement badges, and streak counters that motivate consistent practice and skill development.
