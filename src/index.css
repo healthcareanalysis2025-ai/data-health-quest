@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 18%;
 
-    --primary: 351 100% 35%;
+    --primary: 345 82% 35%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 13% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 13% 96%;
     --muted-foreground: 220 9% 46%;
 
-    --accent: 351 100% 35%;
+    --accent: 345 82% 35%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -34,12 +34,26 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 351 100% 35%;
+    --ring: 345 82% 35%;
     
-    /* Custom design tokens for healthcare theme - Harvard Crimson */
-    --healthcare-primary: 351 100% 35%;
-    --healthcare-light: 351 100% 97%;
-    --healthcare-accent: 351 85% 50%;
+    /* Official Harvard Business School Color Palette */
+    --harvard-crimson: 345 82% 35%;        /* #A41034 - Core brand color */
+    --harvard-black: 0 0% 0%;              /* #000000 - Core brand color */
+    
+    /* Primary Supporting Colors */
+    --harvard-red-2: 349 96% 46%;          /* #E80538 */
+    --harvard-orange-2: 26 87% 49%;        /* #E87D1E */
+    --harvard-yellow-2: 50 100% 46%;       /* #EBCD00 */
+    --harvard-green-2: 103 56% 37%;        /* #52A52E */
+    --harvard-teal-2: 183 100% 31%;        /* #00979D */
+    --harvard-blue-2: 230 32% 55%;         /* #6578B4 */
+    --harvard-purple-2: 289 37% 40%;       /* #80408D */
+    --harvard-magenta-2: 332 100% 39%;     /* #C9006B */
+    
+    /* Healthcare theme using Harvard colors */
+    --healthcare-primary: 345 82% 35%;     /* Harvard Crimson */
+    --healthcare-light: 345 82% 97%;       /* Very light crimson */
+    --healthcare-accent: 345 82% 45%;      /* Lighter crimson for hover */
     --gray-50: 220 13% 98%;
     --gray-100: 220 13% 96%;
     --gray-200: 220 13% 91%;

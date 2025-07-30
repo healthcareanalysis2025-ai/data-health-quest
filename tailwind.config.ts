@@ -67,6 +67,18 @@ export default {
 					light: 'hsl(var(--healthcare-light))',
 					accent: 'hsl(var(--healthcare-accent))'
 				},
+				harvard: {
+					crimson: 'hsl(var(--harvard-crimson))',
+					black: 'hsl(var(--harvard-black))',
+					red2: 'hsl(var(--harvard-red-2))',
+					orange2: 'hsl(var(--harvard-orange-2))',
+					yellow2: 'hsl(var(--harvard-yellow-2))',
+					green2: 'hsl(var(--harvard-green-2))',
+					teal2: 'hsl(var(--harvard-teal-2))',
+					blue2: 'hsl(var(--harvard-blue-2))',
+					purple2: 'hsl(var(--harvard-purple-2))',
+					magenta2: 'hsl(var(--harvard-magenta-2))'
+				},
 				gray: {
 					50: 'hsl(var(--gray-50))',
 					100: 'hsl(var(--gray-100))',
